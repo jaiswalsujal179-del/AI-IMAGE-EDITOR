@@ -1,19 +1,41 @@
-# Create T3 App
+# AI Image Editor
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+An AI-powered image editing application built with the [T3 Stack](https://create.t3.gg/).
 
-## What's next? How do I make an app with this?
+## Reference Implementation
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+This project is based on the AI Image Editor SaaS application:
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+```bash
+git clone https://github.com/sahandghavidel/ai-image-editor-saas-app.git
+cd ai-image-editor-saas-app
+```
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+## Tech Stack
+
+This project is built with:
+
+- [Next.js](https://nextjs.org) - React framework
+- [NextAuth.js](https://next-auth.js.org) - Authentication
+- [Prisma](https://prisma.io) - Database ORM
+- [Tailwind CSS](https://tailwindcss.com) - Styling
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+
+## Getting Started
+
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Learn More
 
